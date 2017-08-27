@@ -17,14 +17,14 @@ public class EstructurasDeDatos {
      */
     public static void main(String[] args) {
         
-        Ciclos ejerciciosciclos = new Ciclos();
+        /*Ciclos ejerciciosciclos = new Ciclos();
         
          ejerciciosciclos.ejerciciociclos();
         
          Condicionales ejercicioscondicionales = new Condicionales();
          
          ejercicioscondicionales.ejerciciocondicionales();
-         
+         */
     }
 
 }
