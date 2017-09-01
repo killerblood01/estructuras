@@ -57,7 +57,8 @@ public class EjerciciosComplejidad {
                 //el peor de los casos es O(n)
                 
                 break;
-                
+              
+             case 3:  
           
                   
                   
