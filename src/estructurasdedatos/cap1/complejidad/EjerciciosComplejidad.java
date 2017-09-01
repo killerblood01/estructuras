@@ -19,8 +19,9 @@ public class EjerciciosComplejidad {
     System.out.println("Menu ejercicio complejida");
     System.out.println("1.para el peor de los casos O(1).");
     System.out.println("2.para el peor de los casos O(n).");
-    System.out.println("3.para el peor de los casos O(Log2 n ).");
-    System.out.println("4.para el peor de los casos O(nLog2 n)."); 
+    System.out.println("3.para el peor de los casos O(n^2).");
+    System.out.println("4.para el peor de los casos O(Log2 n ).");
+    System.out.println("5.para el peor de los casos O(nLog2 n)."); 
     
     
     n = entrada.nextInt();
@@ -59,8 +60,18 @@ public class EjerciciosComplejidad {
                 break;
               
              case 3:  
-          
+             int mult;// O(1)
+             
+             for(int i=1;i<=10;i++){ //O(n)
+                for(int j=1;j<=10;j++){//O(n)
+                 mult=i*j;//O(1)            
+                    System.out.println(i+"*"+j+"="+mult);
                   
+             } 
+             }
+             
+             //el peor de los casos es O(n^2)
+                 break; 
                   
                 }
     
