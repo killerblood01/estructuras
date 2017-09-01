@@ -6,6 +6,7 @@
 package estructurasdedatos;
 import estructurasdedatos.cap1.complejidad.Ciclos;
 import estructurasdedatos.cap1.complejidad.Condicionales;
+import estructurasdedatos.cap1.complejidad.EjerciciosComplejidad;
 /**
  *
  * @author tusk
@@ -25,7 +26,13 @@ public class EstructurasDeDatos {
          
          ejercicioscondicionales.ejerciciocondicionales();
          */
+        
+        EjerciciosComplejidad peordeloscasosuno = new EjerciciosComplejidad() ;
+        
+         peordeloscasosuno.peordeloscasosuno();
+        
     }
+   
 
 }
    
