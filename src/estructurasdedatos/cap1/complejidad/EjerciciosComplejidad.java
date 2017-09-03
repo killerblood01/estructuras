@@ -14,7 +14,7 @@ public class EjerciciosComplejidad {
     public  void peordeloscasosuno() {
     
     Scanner entrada = new Scanner(System.in);
-    int n=0;
+    int n;
     
     System.out.println("Menu ejercicio complejida");
     System.out.println("1.para el peor de los casos O(1).");
@@ -73,6 +73,45 @@ public class EjerciciosComplejidad {
              //el peor de los casos es O(n^2)
                  break; 
                   
+             case 4:
+                 
+                int arre[]={1,2,3,4,5,6,7,8,9,10};
+                int variable = 8;
+                int posini = 0;
+                int posfin = arre.length-1;
+                int poscen;
+                
+                while(posini <= posfin){
+                    poscen =(posfin+posini)/2;
+                    if(arre[poscen] == variable){
+                        System.out.println("Dato encontrado entre las posiciones "+posini+" y "+posfin);
+                        break;
+                    }
+                    
+                    else if(variable<arre[poscen]){
+                        posfin = poscen-1;
+                        
+                    }
+                    else{
+                        posini = poscen + 1;
+                    } 
+                }
+                
+                break; 
+                
+                
+                
+                 
+             
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
                 }
     
 }
