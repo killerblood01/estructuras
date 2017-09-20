@@ -8,6 +8,7 @@ import estructurasdedatos.cap1.complejidad.Ciclos;
 import estructurasdedatos.cap1.complejidad.Condicionales;
 import estructurasdedatos.cap1.complejidad.EjerciciosComplejidad;
 import estructurasdedatos.cap2.arreglos.Vector;
+import estructurasdedatos.cap2.listas.ListaDoble;
 import java.util.Scanner;
 
 /**
@@ -20,7 +21,7 @@ public class EstructurasDeDatos {
      * @param args the command line arguments
      */
     
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         String tecla = null;
         /*Ciclos ejerciciosciclos = new Ciclos();
         
@@ -35,7 +36,7 @@ public class EstructurasDeDatos {
         
          peordeloscasosuno.peordeloscasosuno();*/
           
-        Scanner entrada = new Scanner(System.in);
+       /* Scanner entrada = new Scanner(System.in);
         
         do{
         int respuesta;
@@ -116,9 +117,18 @@ public class EstructurasDeDatos {
         }while (tecla.equals("s") || tecla.equals("S"));
          
         
-        }
+        }*/
+    
+    
+    
+    
+    
+            
+    
+      
+}
              
-    }
+    
 
 
 

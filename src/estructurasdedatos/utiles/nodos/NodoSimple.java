@@ -11,7 +11,7 @@ package estructurasdedatos.utiles.nodos;
  */
 public class NodoSimple {
      private NodoSimple siguiente;
-    private int dato;
+     private int dato;
 
     
     public NodoSimple  getSiguiente() {
