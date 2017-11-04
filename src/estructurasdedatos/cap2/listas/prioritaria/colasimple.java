@@ -23,11 +23,11 @@ public class colasimple {
         return (this.tope == null);
     }
 
-    public void encolar(int cedula) {
+    public void encolar(String cedula) {
    
         Nodopersona nuevo = new Nodopersona();
        
-        nuevo.setDato(cedula);
+        nuevo.setCedula(cedula);
     
         if (vacia()) {
           
@@ -66,7 +66,7 @@ public class colasimple {
         
         while (aux != null) {
           
-            System.out.println(i + "." + " [ " + aux.getDato().getCedula() + " ]");
+           /* System.out.println(i + "." + " [ " + aux.getDato().getCedula() + " ]");*/
 
             aux = aux.getSiguiente();
             i++;

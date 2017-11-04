@@ -1,4 +1,4 @@
-package estructurasdatos.cap1.tiposdedados;
+/*package estructurasdatos.cap1.tiposdedados;
 
 public class figurageometrica{
   
@@ -33,4 +33,4 @@ public class figurageometrica{
     this.nombre = nombre;
   }
     
-}
+}*/

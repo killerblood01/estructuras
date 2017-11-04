@@ -10,28 +10,51 @@ import estructurasdedatos.cap2.listas.prioritaria.Nodopersona;
  * @author jhony
  */
 public class Nodopersona {
-    private persona dato;
+    private String dato;
+    private String nombre;
+    private String cedula;
     private Nodopersona siguiente;
-    
-    
-    public void crearnodo(){
-    siguiente=null;
-    dato=null;
-}
 
     /**
      * @return the dato
      */
-    public persona getDato() {
+    public String getDato() {
         return dato;
     }
 
     /**
      * @param dato the dato to set
      */
-    public void setDato(int cedula) {
-        persona p =new persona (cedula);
-        this.dato = p;
+    public void setDato(String dato) {
+        this.dato = dato;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the cedula
+     */
+    public String getCedula() {
+        return cedula;
+    }
+
+    /**
+     * @param cedula the cedula to set
+     */
+    public void setCedula(String cedula) {
+        this.cedula = cedula;
     }
 
     /**
@@ -47,6 +70,7 @@ public class Nodopersona {
     public void setSiguiente(Nodopersona siguiente) {
         this.siguiente = siguiente;
     }
-    
-    
+
 }
+    
+

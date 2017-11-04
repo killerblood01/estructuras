@@ -21,7 +21,7 @@ public class ColaPrioritaria {
         this.prioritaria = new colasimple();
     }
 
-    public void hacercola(int cedula, int prioridad) {
+    public void hacercola(String cedula, int prioridad) {
 
         if (prioridad == 0) {
 
