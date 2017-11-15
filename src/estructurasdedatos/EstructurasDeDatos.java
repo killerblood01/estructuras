@@ -8,7 +8,12 @@ import estructurasdedatos.cap1.complejidad.Ciclos;
 import estructurasdedatos.cap1.complejidad.Condicionales;
 import estructurasdedatos.cap1.complejidad.EjerciciosComplejidad;
 import estructurasdedatos.cap2.arreglos.Vector;
+import estructurasdedatos.cap2.listas.ListaSimple;
 import estructurasdedatos.cap2.listas.ListaDoble;
+import estructurasdedatos.cap3.tablahash.diccionario;
+import estructurasdedatos.cap3.tablahash.tablahash;
+import estructurasdedatos.cap4.arboles.ArbolB;
+import estructurasdedatos.cap4.arboles.ArbolAVL;
 import java.util.Scanner;
 
 /**
